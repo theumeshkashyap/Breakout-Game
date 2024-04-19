@@ -1,13 +1,12 @@
-
-
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #1e1e1e; /* Dark background color */
     font-family: Arial, sans-serif;
+    color: #fff; /* White text color */
 }
 
 main {
@@ -22,13 +21,14 @@ h1 {
 .game-container {
     position: relative;
     display: inline-block;
-    border: 2px solid #333;
+    border: 2px solid #ccc; /* Light border color */
     border-radius: 10px;
-    background-color: #f9f9f9;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #292929; /* Dark container background color */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* White shadow */
     padding: 20px;
     
 }
+
 #score-text {
     display: flex;
     align-items: center;
@@ -41,13 +41,14 @@ h1 {
 #score {
     font-size: 1.5rem;
     font-weight: bold;
+    color: #ff0; /* Yellow score color */
 }
 
 .grid {
     position: relative;
     width: 560px;
     height: 300px;
-    border: 2px solid #333;
+    border: 2px solid #ccc; /* Light border color */
     border-radius: 5px;
     overflow: hidden;
     margin: 0 auto;
@@ -57,7 +58,7 @@ h1 {
     position: absolute;
     width: 100px;
     height: 20px;
-    background-color: #008080;
+    background-color: #008080; /* Teal block color */
     border: 1px solid #333;
     border-radius: 3px;
 }
@@ -66,7 +67,7 @@ h1 {
     position: absolute;
     width: 100px;
     height: 20px;
-    background-color: #228b22;
+    background-color: #228b22; /* Green user color */
     border: 1px solid #333;
     border-radius: 3px;
 }
@@ -76,7 +77,7 @@ h1 {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #ff7f50;
+    background-color: #ff7f50; /* Coral ball color */
     border: 2px solid #333;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
